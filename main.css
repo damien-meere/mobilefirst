@@ -1,0 +1,28 @@
+/*Default Styles*/
+.column{
+    float: left; /*Universal unless overridden*/
+    width:100%; /*Universal unless overridden*/
+    
+    /*Mobile applicable Styles*/
+    height: 50px;
+    background-color: #000;
+    margin: 10px 0;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    .column {
+        background-color: #e84610;
+        width: 30%;
+        margin: 10px;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .column {
+        background-color: #0997d3;
+        width: 30%;
+        margin: 10px;
+    }
+}
